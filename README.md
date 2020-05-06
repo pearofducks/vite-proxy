@@ -13,9 +13,10 @@ yarn add --dev vite-plugin-proxy
 See `demo/main.js` for a full example.
 
 ```
+const { createServer } = require('vite')
 const proxy = require('vite-plugin-proxy')
 
-createServe({
+createServer({
   plugins: [
     proxy({
       '/local/path': 'http://remote.server/path'
