@@ -1,11 +1,11 @@
-# vite-plugin-proxy
+# vite-proxy
 
 A plugin for [Vite](https://github.com/vuejs/vite) that proxies requests to other services
 
 ## install
 
 ```
-yarn add --dev vite-plugin-proxy
+yarn add --dev vite-proxy
 ```
 
 ## use
@@ -14,7 +14,7 @@ See `demo/main.js` for a full example.
 
 ```
 const { createServer } = require('vite')
-const proxy = require('vite-plugin-proxy')
+const proxy = require('vite-proxy')
 
 createServer({
   plugins: [
